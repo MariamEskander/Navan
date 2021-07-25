@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Navan Pharmacy</string>
+    <string name="app_code">bf5r2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="google_maps_key">AIzaSyB535v5jEZgaTVReUuqRBsBLLgFVXQpb1w</string>
+    <string name="blue_name">location animation</string>
+    <string name="location">Location</string>
+    <string name="hours">Hours</string>
+    <string name="refill">Refill</string>
+    <string name="request_new">Request New</string>
+    <string name="saved_refill">Saved Refills</string>
+    <string name="check_status">Check Status</string>
+    <string name="health_news">Health News</string>
+    <string name="health_features">Healthy Living</string>
+    <string name="call">Call</string>
+    <string name="fail_to_connect_to_internet">You have No Internet Connction</string>
+    <string name="read">Read Article</string>
+    <string name="read_more_news">Read More News</string>
+    <string name="read_more_features">Read More Healthy Living Articles</string>
+    <string name="top_news">Top News</string>
+    <string name="read_more">Read More</string>
+    <string name="patient_info">Patient Information</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone">Contact Number (###-###-####)</string>
+    <string name="birth">Date Of Birth</string>
+    <string name="continue_refill">Continue</string>
+    <string name="presecribtion">Prescriptions (RX)</string>
+    <string name="rx_number">RX Number</string>
+    <string name="medication_name">Medication Name</string>
+    <string name="add_another_rx">+ Add Another rx</string>
+    <string name="pick_up">Pickup Options</string>
+    <string name="pickup">Pickup</string>
+    <string name="notes">Notes for Pharmacy</string>
+    <string name="notes_hint">You can leave any comments you would like from special delivery instructions to questions about your medications</string>
+    <string name="scan">Scan</string>
+    <string name="presecription">Prescription #1</string>
+    <string name="save_refill">Save Refill for the Future</string>
+    <string name="refill_name">Name Your Refill</string>
+    <string name="alert">Alert Me to Refill in</string>
+    <string name="save_continue">save and finish</string>
+    <string name="continue_no_save">Finish without saving</string>
+    <string name="notifications">Notifications</string>
+    <string name="info">Pharmacy info</string>
+    <string name="fill_new">Fill New Prescription</string>
+    <string name="refill_rx">Refill RX</string>
+    <string name="rx_transfer">RX Transfer</string>
+    <string name="health_aticles">Articles about health</string>
+    <string name="about">Navan Medical Pharmacy is your neighborhood pharmacy in the Navan area, just slightly North-east from the center of Orleans. While in a very convenient proximity to all Avalon, Trails Edge, Spring Valley, and Bradley Estates\' residents. Navan Medical Pharmacy is very committed to serving all the residents of the neighborhood. With a distinct need for a dependable and personal pharmacist connection in this area of Orleans, we are dedicated to delivering the care, service, products, and affordability that you and your families deserve, day in and day out.</string>
+    <string name="about_us">About us</string>
+    <string name="allergies">Allergies</string>
+    <string name="send">send</string>
+    <string name="upload">Upload Prescription (We support jpg, jpeg, png, gif, doc, docx, xls, xlsx):</string>
+    <string name="rx_hint">Additional Instructions (Optional)</string>
+    <string name="transfer">Transfer Your Prescriptions from another pharmacy to Navan Pharmacy</string>
+    <string name="address">Home Address (Optional)</string>
+    <string name="pharmacy_name">Name of the pharmacy you would like to transfer your file from</string>
+    <string name="pharmacy_phone">Pharmacy Phone Number</string>
+    <string name="pharmacy_address">Pharmacy Address (Not Required)</string>
+    <string name="how_deliever_msg">How would you like to receive your medications?*</string>
+
+    <string-array name="alarm_remainder">
+        <item>7 days</item>
+        <item>14 days</item>
+        <item>30 days</item>
+        <item>Don't set a remainder</item>
+    </string-array>
+
+
+</resources>

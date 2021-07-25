@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pharmacy.pharmacycare.ui.home.HomeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/navanpharmacylogo"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/info"
+            android:background="#5fc33f"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:tint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/search"/>
+            <TextView
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:text="@string/info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/new_refill"
+            android:background="#f12d2c"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:tint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mrx2"/>
+            <TextView
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:text="@string/fill_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/refill_rx"
+            android:background="#fe8238"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:tint="@color/white"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/capsules"/>
+            <TextView
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:text="@string/refill_rx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/refill_transfer"
+            android:background="#602b61"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:tint="@color/white"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/transfer"/>
+            <TextView
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:text="@string/rx_transfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/news"
+            android:background="#E8575B"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:tint="@color/white"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/news"/>
+            <TextView
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:text="@string/health_aticles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/notifications"
+            android:background="#53b7d7"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:tint="@color/white"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/notification_bell"/>
+            <TextView
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:text="@string/notifications"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

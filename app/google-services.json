@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "358524025899",
+    "firebase_url": "https://navan-pharmacy-29c06.firebaseio.com",
+    "project_id": "navan-pharmacy-29c06",
+    "storage_bucket": "navan-pharmacy-29c06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358524025899:android:49ace6c6e6e06959",
+        "android_client_info": {
+          "package_name": "com.pharmacy.pharmacycare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358524025899-479f855kefotpfgh6a0fv0iaa67283od.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR0Rhreo4riyWdtTX_zY-3zA_7swnH4Vw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FCFCFC</color>
+    <color name="colorPrimaryDark">#FCFCFC</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="alice_blue">#F4F6F9</color>
+    <color name="snuff">#E2D8E3</color>
+    <color name="cornflower">#98C4E6</color>
+    <color name="cyan">#0bb5d3</color>
+    <color name="scampi">#0b59d1</color>
+    <color name="link_water">#C9CFD7</color>
+    <color name="wistful">#A5A7CB</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="call">#8BC34A</color>
+    <color name="amper">#ffb431</color>
+    <color name="slategray">#62798f</color>
+    <color name="transparent">#50000000</color>
+    <color name="red">#ffff0000</color>
+</resources>
